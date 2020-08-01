@@ -1,16 +1,42 @@
 import React from "react";
 
-import Layout from "../components/layout";
+import Header from "../components/header";
+import Hero from "../components/hero";
+import Waves from "../components/waves";
+import Features from "../components/features";
+import Cards from "../components/cards";
+import Pricing from "../components/pricing";
+import WavesTop from "../components/wavestop";
+import CTA from "../components/cta";
+import Footer from "../components/footer";
 import SEO from "../components/seo";
 
 function IndexPage() {
   return (
-    <Layout>
+    <body className="leading-normal tracking-normal text-white gradient">
       <SEO
         title="GatsbyJS Tailwind Starter"
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
       />
-    </Layout>
+
+      <Header />
+
+      <Hero />
+
+      <Waves />
+
+      <Features />
+
+      <Cards />
+
+      <Pricing />
+
+      <WavesTop />
+
+      <CTA />
+
+      <Footer />
+    </body>
   );
 }
 
