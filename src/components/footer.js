@@ -19,7 +19,7 @@ export default () => (
     render={(data) => (
       <footer className="bg-white">
         <div className="container mx-auto  px-8">
-          <div className="w-full flex flex-col md:flex-row py-6">
+          <div className="w-full flex flex-col content-around md:flex-row py-6">
             <div className="flex-1 mx-4 pr-8">
               <a
                 className="text-orange-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
@@ -34,7 +34,7 @@ export default () => (
               <ul className="list-reset mb-6">
                 <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                   <a
-                    href="#"
+                    href="/about"
                     className="no-underline hover:underline text-gray-800 hover:text-orange-500"
                   >
                     FAQ
@@ -42,39 +42,10 @@ export default () => (
                 </li>
                 <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                   <a
-                    href="#"
+                    href="mailto:frosh@mus.mcgill.ca"
                     className="no-underline hover:underline text-gray-800 hover:text-orange-500"
                   >
                     Help
-                  </a>
-                </li>
-                <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                  <a
-                    href="#"
-                    className="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                  >
-                    Support
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="flex-1">
-              <p className="uppercase text-gray-500 md:mb-6">Legal</p>
-              <ul className="list-reset mb-6">
-                <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                  <a
-                    href="#"
-                    className="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                  >
-                    Terms
-                  </a>
-                </li>
-                <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                  <a
-                    href="#"
-                    className="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                  >
-                    Privacy
                   </a>
                 </li>
               </ul>
@@ -84,7 +55,7 @@ export default () => (
               <ul className="list-reset mb-6">
                 <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                   <a
-                    href="#"
+                    href="https://www.facebook.com/managementfrosh"
                     className="no-underline hover:underline text-gray-800 hover:text-orange-500"
                   >
                     Facebook
@@ -92,18 +63,10 @@ export default () => (
                 </li>
                 <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                   <a
-                    href="#"
+                    href="https://www.instagram.com/managementfrosh/"
                     className="no-underline hover:underline text-gray-800 hover:text-orange-500"
                   >
-                    Linkedin
-                  </a>
-                </li>
-                <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                  <a
-                    href="#"
-                    className="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                  >
-                    Twitter
+                    Instagram
                   </a>
                 </li>
               </ul>
