@@ -12,15 +12,13 @@ function Hero() {
           <h1 className="my-4 text-5xl font-bold leading-tight">
             Frosh of the Penguins
           </h1>
-          <p className="leading-normal text-2xl mb-8">
-            the best something something ever!
-          </p>
+          <p className="leading-normal text-2xl mb-8">August 29-30</p>
 
           <button
             type="submit"
             className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
           >
-            Register Now
+            Registrations Opens Soon
           </button>
         </div>
 

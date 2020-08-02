@@ -29,8 +29,6 @@ function IndexPage() {
 
       <Cards />
 
-      {/* <Pricing /> */}
-
       <WavesTop />
 
       <CTA />
