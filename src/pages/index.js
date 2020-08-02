@@ -15,8 +15,8 @@ function IndexPage() {
   return (
     <body className="leading-normal tracking-normal text-white gradient">
       <SEO
-        title="GatsbyJS Tailwind Starter"
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        title="Frosh of the Penguins"
+        keywords={[`McGill`, `Management`, `Frosh`, `2020`, `Penguins`]}
       />
 
       <Header />
@@ -29,7 +29,7 @@ function IndexPage() {
 
       <Cards />
 
-      <Pricing />
+      {/* <Pricing /> */}
 
       <WavesTop />
 
