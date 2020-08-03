@@ -120,10 +120,10 @@ export default () => (
                       Math{" "}
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Go to McGill Event</strong> Winter Carnival{" "}
+                      <strong>Go to McGill Event: </strong> Winter Carnival{" "}
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Best Spot in Montreal:</strong> Suwu on a Sunday
+                      <strong>Best Spot in Montreal: </strong> Suwu on a Sunday
                       morning
                     </p>
                     <p className="text-m lg:text-l mt-2">
@@ -131,7 +131,7 @@ export default () => (
                       head
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>First Year Bucket List</strong> Participating in
+                      <strong>First Year Bucket List: </strong> Participating in
                       scunt season
                     </p>
                   </div>
