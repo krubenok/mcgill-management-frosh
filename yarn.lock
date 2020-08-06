@@ -1481,7 +1481,7 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
   integrity sha512-ONhaKPIufzzrlNbqtWFFd+jlnemX6lJAgq9ZeiZtS7I1PIf/la7CW4m83rTXRnVnsMbW2k56pGYu7AUFJD9Pow==
 
-"@stripe/stripe-js@^1.8.0":
+"@stripe/stripe-js@1.8.0":
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/@stripe/stripe-js/-/stripe-js-1.8.0.tgz#100f102d757cd024f94635dba231993554c8cfba"
   integrity sha512-VsIohJw70LIdB4b621RN6pTyw49ZMy+QjB81fl+Psu5X5ppiq/c+rG0F+XKHSVpp4JZRNDkQnsOGeuHow0aluA==
@@ -5893,7 +5893,7 @@ gatsby-graphiql-explorer@^0.4.12:
   dependencies:
     "@babel/runtime" "^7.10.3"
 
-gatsby-image@^2.4.14:
+gatsby-image@2.4.14:
   version "2.4.14"
   resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.4.14.tgz#23e02f5248c96471d7561bd56af8be2b39847a09"
   integrity sha512-JO4Ul+EMCCPS0FddFc8USCDl5roUZDOXg8x99DxE0UShuZTEAtkn+kb8KzpvtPlnwt/0YwBUpcvVrat3yAVz2w==
@@ -5979,7 +5979,7 @@ gatsby-plugin-react-helmet@3.3.10:
   dependencies:
     "@babel/runtime" "^7.10.3"
 
-gatsby-plugin-sharp@^2.6.24:
+gatsby-plugin-sharp@2.6.24:
   version "2.6.24"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.6.24.tgz#af93bcb155861413d3e003c631e67623e90c3406"
   integrity sha512-tMcfnT4clBMv4Sok4sUvP7k+EIGKvQ9o8XGUT7QmKO/dybdXGhmH6N2jdSeL2Zt9xZliW5lxK5eLBTt5dH+VjQ==
@@ -6090,7 +6090,7 @@ gatsby-recipes@^0.1.58:
     ws "^7.3.0"
     xstate "^4.11.0"
 
-gatsby-source-filesystem@^2.3.23:
+gatsby-source-filesystem@2.3.23:
   version "2.3.23"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.3.23.tgz#c97f37383febfd6ecb549307a2841f20e4e16122"
   integrity sha512-OkSefJZscSlf7tjJQIMHpzsf3evDcqf4T1iunMEwL1Qj1iZVD/6UbRIf1kJLt5SS8tGtvsqDNyaQ8Al7rsuJ1g==
@@ -6132,7 +6132,7 @@ gatsby-telemetry@^1.3.24:
     node-fetch "2.6.0"
     uuid "3.4.0"
 
-gatsby-transformer-sharp@^2.5.12:
+gatsby-transformer-sharp@2.5.12:
   version "2.5.12"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.5.12.tgz#de1cc193c7bbd5a62868bc72eac2f7ebb30418ea"
   integrity sha512-f9VQVs7WFv3js6oGReJX1WUYxYTfE9CT+VV8tJHJ+uiUQ8JpDHRq4hjDGdhfFgaPjsmdb7Y4gUVOsLsWLitXOg==
@@ -6145,7 +6145,7 @@ gatsby-transformer-sharp@^2.5.12:
     semver "^5.7.1"
     sharp "^0.25.1"
 
-gatsby@^2.24.23:
+gatsby@2.24.23:
   version "2.24.23"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.24.23.tgz#7733bcee32355732cca7a121ab036e259e0bb37a"
   integrity sha512-Eg8liyseiOgPKjN5VQA6vZgtnLeTdP+z8EQOeK8Mcf5GaOfmTB3FJiZFMOLKwJ9tQI1Wzvn4Ocsu1s/Ih9KqTQ==
@@ -10757,7 +10757,7 @@ rc@^1.2.7, rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-accessible-accordion@^3.3.1:
+react-accessible-accordion@3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/react-accessible-accordion/-/react-accessible-accordion-3.3.1.tgz#3f50be58ebafaef2d56cc6456efce37fe80ec6d1"
   integrity sha512-0uqlzNB31AT/kOz+H/gkg+U1dUN2jZZ+CbiczunyYjTW0D5lKLkMdF7G1tjP4Jru3kLkbcgMSa4Va6OqBQT+Jg==
