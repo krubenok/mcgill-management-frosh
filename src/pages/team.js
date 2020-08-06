@@ -84,7 +84,7 @@ export default () => (
     render={(data) => (
       <body className="leading-normal tracking-normal text-white gradient">
         <SEO
-          title="Frosh of the Penguins"
+          title="Team"
           keywords={[`McGill`, `Management`, `Frosh`, `2020`, `Penguins`]}
         />
 

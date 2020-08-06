@@ -29,7 +29,7 @@ export default () => (
     render={(data) => (
       <body className="leading-normal tracking-normal text-white gradient">
         <SEO
-          title="Frosh of the Penguins"
+          title="About"
           keywords={[`McGill`, `Management`, `Frosh`, `2020`, `Penguins`]}
         />
 
@@ -81,7 +81,7 @@ export default () => (
                     <AccordionItemButton>What is Frosh?</AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
-                    <p className="text-m lg:text-l mt-2 font-light">
+                    <p className="text-m lg:text-l mt-2 font-light text-black">
                       Frosh is your two day introduction to McGill University
                       and the Faculty of Management through engaging virtual
                       events. Frosh will be dedicated to showcasing McGill
@@ -98,7 +98,7 @@ export default () => (
                     <AccordionItemButton>When is Frosh?</AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
-                    <p className="text-m lg:text-l mt-2 font-light">
+                    <p className="text-m lg:text-l mt-2 font-light text-black">
                       August 29-30. Other orientation programs will be running
                       in the weeks leading up to Frosh. Make sure you keep an
                       eye out for more information regarding Discover McGill,
@@ -113,7 +113,7 @@ export default () => (
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
-                    <p className="text-m lg:text-l mt-2 font-light">
+                    <p className="text-m lg:text-l mt-2 font-light text-black">
                       Frosh will consist of 2 days of virtual content. All
                       students will be placed in Frosh groups with 4 returning
                       students guiding them through the events. Students will
@@ -130,7 +130,7 @@ export default () => (
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
-                    <p className="text-m lg:text-l mt-2 font-light">
+                    <p className="text-m lg:text-l mt-2 font-light text-black">
                       Register through the registration button on our homepage!
                     </p>
                   </AccordionItemPanel>
@@ -142,7 +142,7 @@ export default () => (
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
-                    <p className="text-m lg:text-l mt-2 font-light">
+                    <p className="text-m lg:text-l mt-2 font-light text-black">
                       The price for Management Frosh 2020 is $18 + processing
                       fees, which grants you access to two days of interactive
                       online events and activities.
@@ -156,7 +156,7 @@ export default () => (
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
-                    <p className="text-m lg:text-l mt-2 font-light">
+                    <p className="text-m lg:text-l mt-2 font-light text-black">
                       In your Frosh package you will receive a hat, t-shirt,
                       mug, and more!
                     </p>
@@ -167,7 +167,7 @@ export default () => (
                     <AccordionItemButton>What is the MUS?</AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
-                    <p className="text-m lg:text-l mt-2 font-light">
+                    <p className="text-m lg:text-l mt-2 font-light text-black">
                       The Management Undergraduate Society (MUS) represents all
                       full and part time undergraduate students enrolled at the
                       Desautels Faculty of Management. Almost like a student
@@ -184,7 +184,7 @@ export default () => (
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
-                    <p className="text-m lg:text-l mt-2 font-light">
+                    <p className="text-m lg:text-l mt-2 font-light text-black">
                       Frosh coordinators are a group of 10 upper year students
                       who have been working tirelessly this summer to shape your
                       virtual Frosh experience. During the week, keep an eye out
@@ -201,7 +201,7 @@ export default () => (
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
-                    <p className="text-m lg:text-l mt-2 font-light">
+                    <p className="text-m lg:text-l mt-2 font-light text-black">
                       Frosh leaders are McGill Students who have previously
                       participated in Frosh and want to volunteer their time to
                       guide new students through this awesome new experience.
@@ -226,7 +226,7 @@ export default () => (
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
-                    <p className="text-m lg:text-l mt-2 font-light">
+                    <p className="text-m lg:text-l mt-2 font-light text-black">
                       While we encourage you to attend all Frosh events, there
                       is no mandatory participation. That being said, you do
                       need to register in order to participate in any or all of
@@ -241,7 +241,7 @@ export default () => (
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
-                    <p className="text-m lg:text-l mt-2 font-light">
+                    <p className="text-m lg:text-l mt-2 font-light text-black">
                       Some Frosh events will be recorded or you will have entry
                       access throughout the duration of the event. However,
                       there will be certain events, such as organized bonding
@@ -258,7 +258,7 @@ export default () => (
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
-                    <p className="text-m lg:text-l mt-2 font-light">
+                    <p className="text-m lg:text-l mt-2 font-light text-black">
                       Merchandise will be available for pickup in the week
                       leading up to the Frosh in Montreal. If you are not
                       returning to Montreal for the semester, don’t worry!
@@ -276,7 +276,7 @@ export default () => (
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
-                    <p className="text-m lg:text-l mt-2 font-light">
+                    <p className="text-m lg:text-l mt-2 font-light text-black">
                       Frosh events and programming are for students entering
                       their first year of university at McGill in the Fall,
                       students who entered McGill in the Winter term of the
@@ -294,7 +294,7 @@ export default () => (
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
-                    <p className="text-m lg:text-l mt-2 font-light">
+                    <p className="text-m lg:text-l mt-2 font-light text-black">
                       We highly encourage all incoming Management students to
                       participate in Management Frosh! It is a great way to make
                       friends in the Management faculty and get acquainted with
@@ -319,7 +319,7 @@ export default () => (
                     <AccordionItemButton>What is Consent?</AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
-                    <p className="text-m lg:text-l mt-2 font-light">
+                    <p className="text-m lg:text-l mt-2 font-light text-black">
                       Consent is an informed and uninhibited agreement from all
                       participating and affected parties regarding an action or
                       activity. Consent is continuous, meaning it can be revoked
@@ -331,12 +331,12 @@ export default () => (
                       involved and affected members is required for all actions
                       people choose to take.
                     </p>
-                    <p className="text-m lg:text-l mt-2 font-light">
+                    <p className="text-m lg:text-l mt-2 font-light text-black">
                       Consent can never be assumed and cannot be given if a
                       person is incapacitated by alcohol and/or drugs or
                       unconscious.
                     </p>
-                    <p className="text-m lg:text-l mt-2 font-light">
+                    <p className="text-m lg:text-l mt-2 font-light text-black">
                       All Frosh participants are required to watch a video about
                       consent made by Frosh Coordinators. This ensures that the
                       meaning of consent is unambiguous and unanimous among all
@@ -354,11 +354,11 @@ export default () => (
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
-                    <p className="text-m lg:text-l mt-2 font-light">
+                    <p className="text-m lg:text-l mt-2 font-light text-black">
                       Sexual violence is an umbrella term thaty encapsulates two
                       behaviours; sexual harassment and sexual asssault.
                     </p>
-                    <p className="text-m lg:text-l mt-2 font-light">
+                    <p className="text-m lg:text-l mt-2 font-light text-black">
                       Sexual harassment is any form of unwanted sexual advances,
                       requests for sexual acts, and verbal sexual aggressions.
                       This includes harassment online or in-person. Examples of
@@ -366,14 +366,14 @@ export default () => (
                       unwelcome sexual teasing, jokes, remarks, questions, or
                       suggestive signals.
                     </p>
-                    <p className="text-m lg:text-l mt-2 font-light">
+                    <p className="text-m lg:text-l mt-2 font-light text-black">
                       Sexual assault is any act of a sexual nature that the done
                       without unambiguous and enthusiastic consent. Sexual
                       harassment becomes sexual assault when physical contact is
                       made. Both sexual assault and harassment can be committed
                       by any gender.
                     </p>
-                    <p className="text-m lg:text-l mt-2 font-light">
+                    <p className="text-m lg:text-l mt-2 font-light text-black">
                       If you or someone you know is affected by sexual assault
                       or harassment during Frosh, please do not hesitate to
                       contact the Inclusivity Coordinator. They will explain the
@@ -381,14 +381,14 @@ export default () => (
                       campus resources and support, and will provide
                       confidential, non-judgmental, and pro-survivor support.
                     </p>
-                    <p className="text-m lg:text-l mt-2 font-light">
+                    <p className="text-m lg:text-l mt-2 font-light text-black">
                       Regardless of the nature of the sexual act or type of
                       harassment, if the incident made you uncomfortable we
                       encourage you to reach out to the Inclusivity Coordinator
                       immediately. Unless there is imminent danger, your
                       disclosure will remain completely confidential.
                     </p>
-                    <p className="text-m lg:text-l mt-2 font-light">
+                    <p className="text-m lg:text-l mt-2 font-light text-black">
                       <em>
                         Please note: you do not have to contact the Inclusivity
                         Coordinator directly, leaders and other coordinators are
@@ -406,7 +406,7 @@ export default () => (
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
-                    <p className="text-m lg:text-l mt-2 font-light">
+                    <p className="text-m lg:text-l mt-2 font-light text-black">
                       Frosh is an exciting week full of new experiences and
                       meeting tons of other incoming students. But just as much
                       as it is exciting, it can also be mentally taxing and
@@ -415,7 +415,7 @@ export default () => (
                       McGill has a number of resources available to students
                       during Orientation Week that serves this purpose:
                     </p>
-                    <ul className="list-disc text-m lg:text-l ml-8 mt-2 font-light">
+                    <ul className="list-disc text-m lg:text-l ml-8 mt-2 font-light text-black">
                       <li>
                         Peer Support Centre: A confidential and non-judgmental
                         peer support service located on the 4th floor of the
@@ -451,7 +451,7 @@ export default () => (
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
-                    <p className="text-m lg:text-l mt-2 font-light">
+                    <p className="text-m lg:text-l mt-2 font-light text-black">
                       Student’s Frosh Leaders are there to help them every step
                       of the way during Frosh. Always feel free to reach out to
                       your Leaders if you require extra assistance at any point
@@ -471,7 +471,7 @@ export default () => (
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
-                    <p className="text-m lg:text-l mt-2 font-light">
+                    <p className="text-m lg:text-l mt-2 font-light text-black">
                       If you have any other concerns (medical, mental health,
                       etc.) that you would like to be noted please email us at
                       frosh@mus.mcgill.ca or message McGill Management Frosh on
