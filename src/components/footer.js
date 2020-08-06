@@ -71,7 +71,7 @@ export default () => (
                 </li>
               </ul>
             </div>
-            <div className="flex-1 mx-4">
+            <div className="flex-1 mx-4 max-w-xs item-center">
               <Img fluid={data.mus.childImageSharp.fluid} />
             </div>
           </div>
