@@ -65,12 +65,12 @@ function Header({ siteTitle }) {
             >
               Partners
             </Link>
-            <Link
-              to="mailto:frosh@mus.mcgill.ca"
+            <a
+              href="mailto:frosh@mus.mcgill.ca"
               className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-black text-lg hover:text-blue-500"
             >
               Contact
-            </Link>
+            </a>
           </div>
         </div>
       </div>

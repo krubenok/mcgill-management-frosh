@@ -7,7 +7,7 @@ function SuccessPage() {
   return (
     <body className="leading-normal tracking-normal text-white gradient">
       <SEO
-        title="Frosh of the Penguins"
+        title="Success"
         keywords={[`McGill`, `Management`, `Frosh`, `2020`, `Penguins`]}
       />
 
