@@ -348,7 +348,7 @@ export default () => (
                       <strong>Name:</strong> Elan Eisner
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Position:</strong> Cheif of Staff{" "}
+                      <strong>Position:</strong> Chief of Staff{" "}
                     </p>
                     <p className="text-m lg:text-l mt-2">
                       <strong>Major: </strong> Finance
