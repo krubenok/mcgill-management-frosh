@@ -26,7 +26,7 @@ export default () => (
           </div>
 
           <div className="flex items-center flex-wrap">
-            <div className="w-5/6 sm:w-1/2 p-6">
+            <div className="w-full md:w-1/2 p-6">
               <p className="text-gray-600 mb-8">
                 Join us August 29-30. Incoming students will have the
                 opportunity to meet their classmates, interact with upper year
@@ -37,9 +37,11 @@ export default () => (
                 Register now for two days of exciting interactive events and
                 bonding activities
               </p>
-              <button className="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">
-                Registration Opens Soon!
-              </button>
+              <div className="flex justify-center md:justify-start">
+                <button className="hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">
+                  Registration Opens Soon!
+                </button>
+              </div>
             </div>
             <div className="w-full sm:w-1/2 p-6">
               <Img fluid={data.frosh2.childImageSharp.fluid} />

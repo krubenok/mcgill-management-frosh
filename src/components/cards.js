@@ -15,7 +15,7 @@ function Cards() {
             </div>
           </div>
           <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-            <div className="flex items-center justify-start">
+            <div className="flex items-center justify-center md:justify-start">
               <a href="mailto:frosh@mus.mcgill.ca">
                 <button className="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">
                   Email Us
@@ -35,7 +35,7 @@ function Cards() {
             </div>
           </div>
           <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-            <div className="flex items-center justify-end">
+            <div className="flex items-center justify-center md:justify-end">
               <a href="mailto:frosh@mus.mcgill.ca">
                 <button className="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">
                   Let us know!

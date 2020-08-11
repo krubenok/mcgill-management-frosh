@@ -37,6 +37,20 @@ export default () => (
             }
           }
         }
+        sos: file(relativePath: { eq: "sponsors/sos.png" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        wize: file(relativePath: { eq: "sponsors/wize.png" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     `}
     render={(data) => (
@@ -58,16 +72,34 @@ export default () => (
             </div>
             <div className="flex flex-wrap items-center justify-around leading-normal text-black">
               <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
-                <Img fluid={data.coc.childImageSharp.fluid} alt="Sydney" />
+                <Img
+                  fluid={data.coc.childImageSharp.fluid}
+                  alt="Chef on Call"
+                />
               </div>
               <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
-                <Img fluid={data.das.childImageSharp.fluid} alt="Sydney" />
+                <Img
+                  fluid={data.das.childImageSharp.fluid}
+                  alt="Desautels Accounting Society"
+                />
               </div>
               <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
-                <Img fluid={data.licm.childImageSharp.fluid} alt="Sydney" />
+                <Img
+                  fluid={data.licm.childImageSharp.fluid}
+                  alt="Legal Information Clinic at McGill"
+                />
               </div>
               <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
-                <Img fluid={data.fizz.childImageSharp.fluid} alt="Sydney" />
+                <Img fluid={data.fizz.childImageSharp.fluid} alt="Fizz" />
+              </div>
+              <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
+                <Img
+                  fluid={data.sos.childImageSharp.fluid}
+                  alt="SOS Tutoring"
+                />
+              </div>
+              <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
+                <Img fluid={data.wize.childImageSharp.fluid} alt="Wize" />
               </div>
             </div>
           </div>
