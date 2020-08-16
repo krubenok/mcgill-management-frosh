@@ -15,4 +15,4 @@ function BuyNoShirtPage() {
   );
 }
 
-export default BuyNohirtPage;
+export default BuyNoShirtPage;
