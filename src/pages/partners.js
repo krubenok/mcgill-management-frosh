@@ -72,34 +72,46 @@ export default () => (
             </div>
             <div className="flex flex-wrap items-center justify-around leading-normal text-black">
               <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
-                <Img
-                  fluid={data.coc.childImageSharp.fluid}
-                  alt="Chef on Call"
-                />
+                <a href="https://www.chefoncalldelivery.com">
+                  <Img
+                    fluid={data.coc.childImageSharp.fluid}
+                    alt="Chef on Call"
+                  />
+                </a>
               </div>
               <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
-                <Img
-                  fluid={data.das.childImageSharp.fluid}
-                  alt="Desautels Accounting Society"
-                />
+                <a href="https://dasmcgill.ca">
+                  <Img
+                    fluid={data.das.childImageSharp.fluid}
+                    alt="Desautels Accounting Society"
+                  />
+                </a>
               </div>
               <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
-                <Img
-                  fluid={data.licm.childImageSharp.fluid}
-                  alt="Legal Information Clinic at McGill"
-                />
+                <a href="https://licm.ca">
+                  <Img
+                    fluid={data.licm.childImageSharp.fluid}
+                    alt="Legal Information Clinic at McGill"
+                  />
+                </a>
               </div>
               <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
-                <Img fluid={data.fizz.childImageSharp.fluid} alt="Fizz" />
+                <a href="https://fizz.ca/en?utm_source=mcgill&utm_medium=&utm_medium=&utm_term=referral&utm_content=logo-en&utm_campaign=BTS-partnerships">
+                  <Img fluid={data.fizz.childImageSharp.fluid} alt="Fizz" />
+                </a>
               </div>
               <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
-                <Img
-                  fluid={data.sos.childImageSharp.fluid}
-                  alt="SOS Tutoring"
-                />
+                <a href="https://sostutoring.com">
+                  <Img
+                    fluid={data.sos.childImageSharp.fluid}
+                    alt="SOS Tutoring"
+                  />
+                </a>
               </div>
               <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
-                <Img fluid={data.wize.childImageSharp.fluid} alt="Wize" />
+                <a href="https://wizedemy.com">
+                  <Img fluid={data.wize.childImageSharp.fluid} alt="Wize" />
+                </a>
               </div>
             </div>
           </div>
