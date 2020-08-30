@@ -1,8 +1,8 @@
 {
-  "name": "@oddstronaut/gatsby-starter-tailwind",
-  "description": "Gatsby starter styled with Tailwind",
-  "version": "3.0.25",
-  "author": "Taylor Bryant <taylor@bryant.io>",
+  "name": "Management-Frosh",
+  "description": "McGill Management Frosh Website",
+  "version": "1.0.0",
+  "author": "Kyle Rubenok <kyle@rubenok.ca>",
   "dependencies": {
     "gatsby": "^2.24.27",
     "gatsby-image": "^2.4.14",
@@ -52,6 +52,7 @@
     "eslint-plugin-import": "2.22.0",
     "eslint-plugin-jsx-a11y": "6.3.1",
     "eslint-plugin-react": "7.20.5",
+    "eslint-plugin-react-hooks": "^4.1.0",
     "prettier": "2.0.5",
     "tailwindcss": "1.6.0"
   },
