@@ -14,7 +14,7 @@
     "gatsby-plugin-sharp": "^2.6.43",
     "gatsby-source-filesystem": "^2.3.37",
     "gatsby-transformer-sharp": "^2.5.18",
-    "graphql": "15.3.0",
+    "graphql": "15.4.0",
     "prop-types": "15.7.2",
     "react": "16.13.1",
     "react-accessible-accordion": "^3.3.1",
