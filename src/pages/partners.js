@@ -16,13 +16,6 @@ export default () => (
             }
           }
         }
-        das: file(relativePath: { eq: "sponsors/das.jpg" }) {
-          childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
         fizz: file(relativePath: { eq: "sponsors/fizz.png" }) {
           childImageSharp {
             fluid {
@@ -30,21 +23,28 @@ export default () => (
             }
           }
         }
-        licm: file(relativePath: { eq: "sponsors/licm.png" }) {
+        jed: file(relativePath: { eq: "sponsors/jed.png" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        sos: file(relativePath: { eq: "sponsors/sos.png" }) {
+        movemate: file(relativePath: { eq: "sponsors/movemate.png" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        wize: file(relativePath: { eq: "sponsors/wize.png" }) {
+        pop: file(relativePath: { eq: "sponsors/pop.png" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        spin: file(relativePath: { eq: "sponsors/spin.png" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid
@@ -72,7 +72,7 @@ export default () => (
             </div>
             <div className="flex flex-wrap items-center justify-around leading-normal text-black">
               <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
-                <a href="https://www.chefoncalldelivery.com">
+                <a href="https://www.chefoncalldelivery.com" target="_blank">
                   <Img
                     fluid={data.coc.childImageSharp.fluid}
                     alt="Chef on Call"
@@ -80,37 +80,43 @@ export default () => (
                 </a>
               </div>
               <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
-                <a href="https://dasmcgill.ca">
-                  <Img
-                    fluid={data.das.childImageSharp.fluid}
-                    alt="Desautels Accounting Society"
-                  />
-                </a>
-              </div>
-              <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
-                <a href="https://licm.ca">
-                  <Img
-                    fluid={data.licm.childImageSharp.fluid}
-                    alt="Legal Information Clinic at McGill"
-                  />
-                </a>
-              </div>
-              <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
-                <a href="https://fizz.ca/en?utm_source=mcgill&utm_medium=&utm_medium=&utm_term=referral&utm_content=logo-en&utm_campaign=BTS-partnerships">
+                <a
+                  href="https://fizz.ca/en?utm_source=mcgill&utm_medium=&utm_medium=&utm_term=referral&utm_content=logo-en&utm_campaign=BTS-partnerships"
+                  target="_blank"
+                >
                   <Img fluid={data.fizz.childImageSharp.fluid} alt="Fizz" />
                 </a>
               </div>
               <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
-                <a href="https://sostutoring.com">
+                <a href="https://www.jed-consulting.com" target="_blank">
                   <Img
-                    fluid={data.sos.childImageSharp.fluid}
-                    alt="SOS Tutoring"
+                    fluid={data.jed.childImageSharp.fluid}
+                    alt="JED McGill"
                   />
                 </a>
               </div>
               <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
-                <a href="https://wizedemy.com">
-                  <Img fluid={data.wize.childImageSharp.fluid} alt="Wize" />
+                <a href="https://movemate.ca" target="_blank">
+                  <Img
+                    fluid={data.movemate.childImageSharp.fluid}
+                    alt="MoveMate"
+                  />
+                </a>
+              </div>
+              <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
+                <a href="https://popmontreal.com" target="_blank">
+                  <Img
+                    fluid={data.pop.childImageSharp.fluid}
+                    alt="POP Montreal"
+                  />
+                </a>
+              </div>
+              <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
+                <a href="https://www.spinenergie.com/en" target="_blank">
+                  <Img
+                    fluid={data.spin.childImageSharp.fluid}
+                    alt="Spin Energie"
+                  />
                 </a>
               </div>
             </div>
