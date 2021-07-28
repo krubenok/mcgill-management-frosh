@@ -1,7 +1,7 @@
 {
   "name": "Management-Frosh",
   "description": "McGill Management Frosh Website",
-  "version": "1.0.0",
+  "version": "2020",
   "author": "Kyle Rubenok <kyle@rubenok.ca>",
   "dependencies": {
     "gatsby": "^2.30.1",
@@ -32,14 +32,14 @@
   "scripts": {
     "analyze:lint": "eslint --ext .jsx --ext .js .",
     "analyze:prettier": "prettier --list-different '**/*.{js,css,md,json}'",
-    "analyze": "npm run analyze:lint && npm run analyze:prettier",
-    "build": "yarn run clean && gatsby build",
+    "analyze": "yarn analyze:lint && yarn analyze:prettier",
+    "build": "yarn clean && gatsby build",
     "deploy": "gatsby build --prefix-paths && node deploy",
     "develop": "gatsby develop",
     "fix:lint": "eslint --ext .jsx --ext .js . --fix",
     "fix:prettier": "prettier --write '**/*.{js,css,md,json}'",
-    "fix": "npm run fix:lint && npm run fix:prettier",
-    "start": "npm run develop",
+    "fix": "yarn fix:lint && yarn fix:prettier",
+    "start": "yarn develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
     "clean": "gatsby clean"
