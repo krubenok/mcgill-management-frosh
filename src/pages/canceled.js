@@ -8,7 +8,7 @@ function CanceledPage() {
     <body className="leading-normal tracking-normal text-white gradient">
       <SEO
         title="Canceled"
-        keywords={[`McGill`, `Management`, `Frosh`, `2020`, `Penguins`]}
+        keywords={[`McGill`, `Management`, `Frosh`, `2021`, `Mammoth`]}
       />
 
       <Header />

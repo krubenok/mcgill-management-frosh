@@ -4,6 +4,7 @@
   "version": "2.0.0",
   "author": "Kyle Rubenok <kyle@rubenok.ca>",
   "dependencies": {
+    "@stripe/stripe-js": "^1.16.0",
     "gatsby": "^2.30.1",
     "gatsby-image": "^2.9.0",
     "gatsby-plugin-manifest": "^2.10.0",
@@ -19,8 +20,7 @@
     "react": "16.14.0",
     "react-accessible-accordion": "^3.3.4",
     "react-dom": "16.14.0",
-    "react-helmet": "6.1.0",
-    "react-typeform-embed": "^0.2.1"
+    "react-helmet": "6.1.0"
   },
   "keywords": [
     "gatsby",
