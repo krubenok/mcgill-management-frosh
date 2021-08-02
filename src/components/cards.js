@@ -10,7 +10,7 @@ function Cards() {
               Accessibility Concerns?
             </p>
             <div className="w-full font-bold text-xl text-gray-800 px-6">
-              Do you have any accessibility concerns for Management Frosh 2020?
+              Do you have any accessibility concerns for Management Frosh 2021?
               Let us know!
             </div>
           </div>

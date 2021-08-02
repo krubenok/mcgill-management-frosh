@@ -1,7 +1,7 @@
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React, { useState } from "react";
-import Logo from "../images/fotp.svg";
+import Logo from "../images/logo.svg";
 
 function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false);
@@ -10,7 +10,7 @@ function Header({ siteTitle }) {
     <nav className="bg-gray-200">
       <div className="flex items-center justify-between max-w-6xl mx-auto p-4 md:p-8 ">
         <Link to="/" className="flex items-start">
-          <img src={Logo} alt="Frosh of the Penguins Logo" />
+          <img src={Logo} alt="Frosh of the Mammoth Logo" />
         </Link>
 
         <button
@@ -47,12 +47,12 @@ function Header({ siteTitle }) {
               Team
             </Link>
 
-            <Link
+            {/* <Link
               to="/schedule"
               className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-black text-lg hover:text-blue-500"
             >
               Schedule
-            </Link>
+            </Link> */}
             <Link
               to="/resources"
               className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-black text-lg hover:text-blue-500"

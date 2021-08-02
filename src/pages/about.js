@@ -30,7 +30,7 @@ export default () => (
       <body className="leading-normal tracking-normal text-white gradient">
         <SEO
           title="About"
-          keywords={[`McGill`, `Management`, `Frosh`, `2020`, `Penguins`]}
+          keywords={[`McGill`, `Management`, `Frosh`, `2021`, `Mammoth`]}
         />
 
         <Header />
@@ -48,11 +48,11 @@ export default () => (
               <div className="p-6">
                 <p className="text-gray-600 mb-8">
                   The Management Undergraduate Society (MUS) is proud to present
-                  Frosh of the Penguins, open to all incoming students within
-                  the Faculty of Management at McGill University. Due to all
-                  classes moving online for the Fall 2020 Semester, Management
-                  Frosh will be proceeding in a virtual environment. Our goal is
-                  to provide an unforgettable experience that is safe, inclusive
+                  Frosh of the Mammoth, open to all incoming students within the
+                  Faculty of Management at McGill University. Due to all classes
+                  moving online for the Fall 2021 Semester, Management Frosh
+                  will be proceeding in a virtual environment. Our goal is to
+                  provide an unforgettable experience that is safe, inclusive
                   and welcoming, even with the uniqueness of Frosh this year.
                   Within our two day virtual event, students will be able to
                   connect with fellow classmates, upper year students, and
@@ -143,7 +143,7 @@ export default () => (
                   </AccordionItemHeading>
                   <AccordionItemPanel>
                     <p className="text-m lg:text-l mt-2 font-light text-black">
-                      The price for Management Frosh 2020 is $18 + processing
+                      The price for Management Frosh 2021 is $18 + processing
                       fees, which grants you access to two days of interactive
                       online events and activities.
                     </p>
@@ -503,7 +503,6 @@ export default () => (
             </section>
           </div>
         </section>
-
         <Footer />
       </body>
     )}

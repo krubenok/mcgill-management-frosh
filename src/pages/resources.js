@@ -22,7 +22,7 @@ export default () => (
       <body className="leading-normal tracking-normal text-white gradient">
         <SEO
           title="Resources"
-          keywords={[`McGill`, `Management`, `Frosh`, `2020`, `Penguins`]}
+          keywords={[`McGill`, `Management`, `Frosh`, `2021`, `Mammoth`]}
         />
 
         <Header />
@@ -41,7 +41,7 @@ export default () => (
                 <p className="text-gray-600 mb-8">
                   McGill Management Frosh is committed to providing a safe,
                   inclusive, and accessible space to all participants of
-                  orientation. While Frosh 2020 may be unique, we continue to
+                  orientation. While Frosh 2021 may be unique, we continue to
                   honour this commitment, and aim to provide the opportunity and
                   space for participants to foster connections and be welcomed
                   into their time at Desautels. If you have any concerns or

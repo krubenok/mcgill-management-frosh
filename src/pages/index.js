@@ -16,7 +16,7 @@ function IndexPage() {
     <body className="leading-normal tracking-normal text-white gradient">
       <SEO
         title="Home"
-        keywords={[`McGill`, `Management`, `Frosh`, `2020`, `Penguins`]}
+        keywords={[`McGill`, `Management`, `Frosh`, `2021`, `Mammoth`]}
       />
 
       <Header />

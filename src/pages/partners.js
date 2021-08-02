@@ -57,7 +57,7 @@ export default () => (
       <body className="leading-normal tracking-normal text-white gradient">
         <SEO
           title="Partners"
-          keywords={[`McGill`, `Management`, `Frosh`, `2020`, `Penguins`]}
+          keywords={[`McGill`, `Management`, `Frosh`, `2021`, `Mammoth`]}
         />
 
         <Header />
