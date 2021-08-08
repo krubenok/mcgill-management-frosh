@@ -4,9 +4,9 @@ module.exports = {
     titleTemplate: "%s · MUS Frosh 2021",
     description: `McGill Management Frosh 2021`,
     url: "https://musfrosh.com",
-    image: "/cover.png", // Path to your image you placed in the 'static' folder
+    image: "/cover.jpeg", // Path to your image you placed in the 'static' folder
     siteLanguage: "en",
-    siteImage: "/cover.png",
+    siteImage: "/cover.jpeg",
     author: `@krubenok`,
     github: `https://github.com/krubenok/mcgill-management-frosh`,
   },
