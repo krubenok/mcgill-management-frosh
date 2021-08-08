@@ -13,6 +13,7 @@ import {
 } from "react-accessible-accordion";
 import "../css/accordion.css";
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default () => (
   <StaticQuery
     query={graphql`
@@ -48,23 +49,27 @@ export default () => (
               <div className="p-6">
                 <p className="text-gray-600 mb-8">
                   The Management Undergraduate Society (MUS) is proud to present
-                  Frosh of the Mammoth, open to all incoming students within the
-                  Faculty of Management at McGill University. Due to all classes
-                  moving online for the Fall 2021 Semester, Management Frosh
-                  will be proceeding in a virtual environment. Our goal is to
-                  provide an unforgettable experience that is safe, inclusive
-                  and welcoming, even with the uniqueness of Frosh this year.
-                  Within our two day virtual event, students will be able to
-                  connect with fellow classmates, upper year students, and
-                  faculty members, as well as be introduced to the McGill and
-                  Montreal community.
+                  Frosh Age, open to all incoming students within the Faculty of
+                  Management of McGill University. Due to the global pandemic,
+                  McGill University has decided to implement a hybrid model of
+                  Frosh, which will consist of 4 days of both in-person and
+                  online events. Froshies will have the option to purchase
+                  either a hybrid model ticket (access to both in-person and
+                  online events) or the online ticket (access to online events
+                  only). Our goal is to provide an unforgettable experience that
+                  is safe, inclusive and welcoming, even with the uniqueness of
+                  our hybrid model of Frosh this year. Within our 4 day Frosh
+                  event, students will be able to connect with fellow
+                  classmates, upper year students, and faculty members, as well
+                  as be introduced to the McGill and Montreal Community.
                 </p>
                 <p className="text-gray-600 mb-8">
-                  No matter where our froshies are this year they will have the
-                  ability to meet the McGill community, become comfortable with
-                  Montreal, and make long-lasting friends. With the guidance of
-                  over 70 Frosh Leaders, Management Frosh is an incoming
-                  student's chance to experience all that McGill has to offer.
+                  Whether our Froshies will be present with us in-person or
+                  online, they will equally have the opportunity to meet people
+                  from the McGill community, become comfortable with the city of
+                  Montreal, and make long-lasting friendships. With the guidance
+                  of over 80 frosh leaders, Management Frosh is an incoming
+                  student’s chance to experience all that McGill has to offer.
                 </p>
                 <Img fluid={data.frosh1.childImageSharp.fluid} />
               </div>
@@ -82,7 +87,7 @@ export default () => (
                   </AccordionItemHeading>
                   <AccordionItemPanel>
                     <p className="text-m lg:text-l mt-2 font-light text-black">
-                      Frosh is your two day introduction to McGill University
+                      Frosh is your four day introduction to McGill University
                       and the Faculty of Management through engaging virtual
                       events. Frosh will be dedicated to showcasing McGill
                       campus and student life while helping students foster
@@ -99,10 +104,10 @@ export default () => (
                   </AccordionItemHeading>
                   <AccordionItemPanel>
                     <p className="text-m lg:text-l mt-2 font-light text-black">
-                      August 29-30. Other orientation programs will be running
-                      in the weeks leading up to Frosh. Make sure you keep an
-                      eye out for more information regarding Discover McGill,
-                      and Info Day.
+                      August 27th to August 30th. Other orientation programs
+                      will be running in the weeks leading up to Frosh. Make
+                      sure you keep an eye out for more information regarding
+                      Discover McGill, and Info Day.
                     </p>
                   </AccordionItemPanel>
                 </AccordionItem>
@@ -114,12 +119,16 @@ export default () => (
                   </AccordionItemHeading>
                   <AccordionItemPanel>
                     <p className="text-m lg:text-l mt-2 font-light text-black">
-                      Frosh will consist of 2 days of virtual content. All
-                      students will be placed in Frosh groups with 4 returning
-                      students guiding them through the events. Students will
-                      have the chance to learn more about their faculty, bond
-                      with their groups, make new friends, all while
-                      participating in engaging programming.
+                      Frosh will consist of 4 days of online and in-person
+                      events. There will be two ticket options for Frosh, being
+                      an online only ticket, and a hybrid ticket. The online
+                      only tickets will give access to all online events; the
+                      hybrid tickets will give you access to both online and
+                      in-person events. All students will be placed in Frosh
+                      groups with 4 returning students guiding them through the
+                      events. Students will have the chance to learn more about
+                      their faculty, bond with their groups, and make new
+                      friends, all while participating in an engaging program.
                     </p>
                   </AccordionItemPanel>
                 </AccordionItem>
@@ -143,9 +152,9 @@ export default () => (
                   </AccordionItemHeading>
                   <AccordionItemPanel>
                     <p className="text-m lg:text-l mt-2 font-light text-black">
-                      The price for Management Frosh 2021 is $18 + processing
-                      fees, which grants you access to two days of interactive
-                      online events and activities.
+                      The price for Management Frosh 2021 is dependent on which
+                      ticket you select. The online only tickets are $16 CAD and
+                      hybrid ticket are $140 CAD.
                     </p>
                   </AccordionItemPanel>
                 </AccordionItem>
@@ -185,7 +194,7 @@ export default () => (
                   </AccordionItemHeading>
                   <AccordionItemPanel>
                     <p className="text-m lg:text-l mt-2 font-light text-black">
-                      Frosh coordinators are a group of 10 upper year students
+                      Frosh coordinators are a group of 12 upper year students
                       who have been working tirelessly this summer to shape your
                       virtual Frosh experience. During the week, keep an eye out
                       for coordinators in white hoodies as they pop in and out
@@ -229,8 +238,8 @@ export default () => (
                     <p className="text-m lg:text-l mt-2 font-light text-black">
                       While we encourage you to attend all Frosh events, there
                       is no mandatory participation. That being said, you do
-                      need to register in order to participate in any or all of
-                      the events!
+                      need to register and pay in order to participate in any or
+                      all of the events!
                     </p>
                   </AccordionItemPanel>
                 </AccordionItem>
