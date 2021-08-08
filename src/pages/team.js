@@ -17,7 +17,7 @@ export default () => (
             }
           }
         }
-        antoine: file(relativePath: { eq: "coords/antoine.png" }) {
+        antoine: file(relativePath: { eq: "coords/antoine.jpg" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid
