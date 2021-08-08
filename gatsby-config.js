@@ -6,7 +6,7 @@ module.exports = {
     url: "https://musfrosh.com",
     image: "/cover.jpeg", // Path to your image you placed in the 'static' folder
     siteLanguage: "en",
-    siteImage: "/cover.jpeg",
+    siteImage: "cover.jpeg",
     author: `@krubenok`,
     github: `https://github.com/krubenok/mcgill-management-frosh`,
   },

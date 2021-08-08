@@ -36,7 +36,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 property: `og:image`,
-                content: data.site.siteMetadata.siteImage,
+                content: data.site.siteMetadata.image,
               },
               {
                 name: `twitter:card`,
@@ -94,6 +94,7 @@ const detailsQuery = graphql`
         title
         description
         author
+        image
       }
     }
   }
