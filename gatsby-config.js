@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Froshage`,
+    title: `Frosh Age`,
     titleTemplate: "%s · MUS Frosh 2021",
     description: `McGill Management Frosh 2021`,
     url: "https://musfrosh.com",
@@ -15,7 +15,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Froshage`,
+        name: `Frosh Age`,
         short_name: `MUS Frosh`,
         start_url: `/`,
         background_color: `#ffffff`,
@@ -44,7 +44,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: "Froshage",
+        name: "Frosh Age",
         short_name: "MUS Frosh 2021",
         start_url: "/",
         background_color: "#FFFFFF",

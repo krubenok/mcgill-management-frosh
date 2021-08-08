@@ -32,7 +32,7 @@ const Checkout = () => {
       className="hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
       onClick={redirectToCheckout}
     >
-      Online Ticket - 18$
+      Online Ticket - 16$
     </button>
   );
 };

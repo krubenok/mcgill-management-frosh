@@ -32,7 +32,7 @@ const Checkout = () => {
       className="hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
       onClick={redirectToCheckout}
     >
-      Hybrid Ticket - 135$
+      Hybrid Ticket - 140$
     </button>
   );
 };

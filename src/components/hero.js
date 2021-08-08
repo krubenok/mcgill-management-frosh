@@ -9,7 +9,7 @@ function Hero() {
           <p className="uppercase tracking-loose w-full">
             Management Undergraduate Society presents
           </p>
-          <h1 className="my-4 text-5xl font-bold leading-tight">FROSHAGE</h1>
+          <h1 className="my-4 text-5xl font-bold leading-tight">FROSH AGE</h1>
           <p className="leading-normal text-2xl mb-8">August 27-30, 2021</p>
 
           <a href="https://mcgill-orientation-week.eventus.io/login">
