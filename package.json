@@ -18,7 +18,7 @@
     "graphql": "15.5.1",
     "prop-types": "15.7.2",
     "react": "16.14.0",
-    "react-accessible-accordion": "^3.3.4",
+    "react-accessible-accordion": "^3.3.5",
     "react-dom": "16.14.0",
     "react-helmet": "6.1.0"
   },
