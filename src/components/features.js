@@ -2,6 +2,7 @@ import React from "react";
 import { StaticQuery } from "gatsby";
 import Img from "gatsby-image";
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default () => (
   <StaticQuery
     query={graphql`
@@ -40,7 +41,7 @@ export default () => (
               <div className="flex justify-center md:justify-start">
                 {/* <a href="https://mcgill-orientation-week.eventus.io/login"> */}
                 <button className="hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">
-                  Registration Closed
+                  Registration Opening Soon
                 </button>
                 {/* </a> */}
               </div>
