@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../images/fotp.svg";
+import Logo from "../images/logotext.svg";
 import { StaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
 
@@ -17,8 +17,8 @@ export default () => (
       }
     `}
     render={(data) => (
-      <footer className="bg-white">
-        <div className="container mx-auto  px-8">
+      <footer className="bg-white static bottom-0 left-0 w-full">
+        <div className="container mx-auto  px-8 bottom-0">
           <div className="w-full flex flex-col content-around md:flex-row py-6">
             <div className="flex-1 mx-4 pr-8">
               <a
@@ -71,15 +71,18 @@ export default () => (
                 </li>
               </ul>
             </div>
+
             <div className="flex-1 mx-4 max-w-xs item-center">
-              <Img fluid={data.mus.childImageSharp.fluid} />
+              <a
+                href="https://www.mus.mcgill.ca"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Img fluid={data.mus.childImageSharp.fluid} />
+              </a>
             </div>
           </div>
         </div>
-
-        <a href="https://www.freepik.com/free-photos-vectors/background">
-          Background vector created by freepik - www.freepik.com
-        </a>
       </footer>
     )}
   />

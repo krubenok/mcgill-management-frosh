@@ -2,6 +2,7 @@ import React from "react";
 import { StaticQuery } from "gatsby";
 import Img from "gatsby-image";
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default () => (
   <StaticQuery
     query={graphql`
@@ -28,19 +29,19 @@ export default () => (
           <div className="flex items-center flex-wrap">
             <div className="w-full md:w-1/2 p-6">
               <p className="text-gray-600 mb-8">
-                Join us August 29-30. Incoming students will have the
+                Join us August 27-30. Incoming students will have the
                 opportunity to meet their classmates, interact with upper year
                 students, and be welcomed into the Desautels community. Our
                 leaders, coordinators, and staff cannot wait to meet you!
               </p>
               <p className="text-gray-600 mb-8">
-                Register now for two days of exciting interactive events and
-                bonding activities
+                Register now for four days of exciting interactive events and
+                bonding activities, online and in-person.
               </p>
               <div className="flex justify-center md:justify-start">
                 {/* <a href="https://mcgill-orientation-week.eventus.io/login"> */}
                 <button className="hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">
-                  Registration Closed
+                  Registration Opening Soon
                 </button>
                 {/* </a> */}
               </div>

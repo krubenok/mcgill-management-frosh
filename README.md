@@ -1,23 +1,22 @@
 # McGill Management Frosh Website
 
-Website developed for the [Management Undergraduate Society](http://www.mus.mcgill.ca) of McGill University for the entering class of 2020 frosh. 
-
+Website developed for the [Management Undergraduate Society](http://www.mus.mcgill.ca) of McGill University for the entering class of 2021 frosh. 
 ## Technologies
 
 This website is built on [Gatsby](https://www.gatsbyjs.org/), with [Tailwind CSS](https://tailwindcss.com/) for ease of styling. It was forked from the [TailwindPlay starter](https://gatsbyjs-starter-tailwindplay.appseed.us/).
 
-The purchasing form is done via Typeform and Stripe. If you have more time to implement the payment processing for this site, I'd recommend doing something more "native" using Stripe directly and using Netlify or some other serverless forms provider. 
+The purchasing form is done via Typeform and Stripe. If you have more time to implement the payment processing for this site, I'd recommend doing something more "native" using Stripe directly and using Vercel or some other serverless forms provider. 
 
 ### Get started
 
 Install Gatsby CLI:
 ```sh
-npm i --global gatsby-cli
+yarn global add gatsby-cli
 ```
 <br />
 
 ## Build your site
-Use `npm run build` to build your site for production.
+Use `gatsby build` to build your site for production.
 
 <br />
 
@@ -33,6 +32,8 @@ I highly recommend Vercel for hosting this website since (at time of writing) th
 
 The current domain for this project is https://musfrosh.com. If future developers for the MUS need access to this, please reach out to [Kyle Rubenok](https://github.com/krubenok).
 
+The 2020 edition of this site is available in the `2020` branch or at https://2020.musfrosh.com
+
 <br />
 
 ## Resources
@@ -46,4 +47,4 @@ The current domain for this project is https://musfrosh.com. If future developer
 ## Credits
 * [The original starter](https://github.com/Oddstronaut/gatsby-starter-tailwind)
 * [The design](https://www.tailwindtoolbox.com/templates/landing-page)
-* [MUS Web Developer 2020, Kyle Rubenok](https://github.com/krubenok)
+* [MUS Web Developer 2021, Kyle Rubenok](https://github.com/krubenok)

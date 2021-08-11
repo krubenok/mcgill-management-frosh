@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Frosh of the Penguins`,
-    titleTemplate: "%s · MUS Frosh 2020",
-    description: `McGill Management Frosh 2020`,
+    title: `Frosh Age`,
+    titleTemplate: "%s · MUS Frosh 2021",
+    description: `McGill Management Frosh 2021`,
     url: "https://musfrosh.com",
-    image: "/cover.png", // Path to your image you placed in the 'static' folder
+    image: "/cover.jpeg", // Path to your image you placed in the 'static' folder
     siteLanguage: "en",
-    siteImage: "/cover.png",
+    siteImage: "cover.jpeg",
     author: `@krubenok`,
     github: `https://github.com/krubenok/mcgill-management-frosh`,
   },
@@ -15,13 +15,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Frosh of the Penguins`,
+        name: `Frosh Age`,
         short_name: `MUS Frosh`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#00ddfa`,
+        theme_color: `#D9E4F7`,
         display: `minimal-ui`,
-        icon: `src/images/penguin.svg`,
+        icon: `src/images/mammoth.svg`,
       },
     },
     `gatsby-plugin-postcss`,
@@ -44,11 +44,11 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: "Frosh of the Penguins",
-        short_name: "MUS Frosh 2020",
+        name: "Frosh Age",
+        short_name: "MUS Frosh 2021",
         start_url: "/",
         background_color: "#FFFFFF",
-        theme_color: "#7AB142",
+        theme_color: "#D9E4F7",
         display: "standalone",
         icon: "src/images/logo.png",
       },

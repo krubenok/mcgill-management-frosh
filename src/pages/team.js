@@ -5,18 +5,26 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import SEO from "../components/seo";
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default () => (
   <StaticQuery
     query={graphql`
       query {
-        barre: file(relativePath: { eq: "coords/barre.jpeg" }) {
+        abbey: file(relativePath: { eq: "coords/abbey.jpg" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        campbell: file(relativePath: { eq: "coords/campbell.jpeg" }) {
+        antoine: file(relativePath: { eq: "coords/antoine.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        ben: file(relativePath: { eq: "coords/ben.jpg" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid
@@ -30,49 +38,49 @@ export default () => (
             }
           }
         }
-        elan: file(relativePath: { eq: "coords/elan.jpeg" }) {
+        flo: file(relativePath: { eq: "coords/flo.jpg" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        guillaume: file(relativePath: { eq: "coords/guillaume.jpeg" }) {
+        guillaume: file(relativePath: { eq: "coords/guillaume.jpg" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        lindsay: file(relativePath: { eq: "coords/lindsay.jpeg" }) {
+        mateo: file(relativePath: { eq: "coords/mateo.jpg" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        megan: file(relativePath: { eq: "coords/megan.jpeg" }) {
+        nicolas: file(relativePath: { eq: "coords/nicolas.jpg" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        melanie: file(relativePath: { eq: "coords/melanie.jpeg" }) {
+        patrick: file(relativePath: { eq: "coords/patrick.jpg" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        patrick: file(relativePath: { eq: "coords/patrick.jpeg" }) {
+        taylor: file(relativePath: { eq: "coords/taylor.jpg" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        sydney: file(relativePath: { eq: "coords/sydney.JPG" }) {
+        zach: file(relativePath: { eq: "coords/zach.jpg" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid
@@ -85,7 +93,7 @@ export default () => (
       <body className="leading-normal tracking-normal text-white gradient">
         <SEO
           title="Team"
-          keywords={[`McGill`, `Management`, `Frosh`, `2020`, `Penguins`]}
+          keywords={[`McGill`, `Management`, `Frosh`, `2021`, `Mammoth`]}
         />
 
         <Header />
@@ -106,198 +114,175 @@ export default () => (
                 <div className="flex flex-wrap leading-normal text-black">
                   <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
                     <Img
-                      fluid={data.sydney.childImageSharp.fluid}
-                      alt="Sydney"
+                      fluid={data.david.childImageSharp.fluid}
+                      alt="David Fish"
                     />
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Name:</strong> Sydney Kalyn
+                      <strong>Name:</strong> David Fish
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Position:</strong> VP Events{" "}
+                      VP Events from Vancouver, BC
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Major:</strong> Finance / Business Analytics /
-                      Math{" "}
+                      <strong>Major:</strong> Finance
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Go to McGill Event: </strong> Winter Carnival{" "}
+                      <strong>Fun Fact: </strong> I've never had coffee before
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Best Spot in Montreal: </strong> Suwu on a Sunday
-                      morning
-                    </p>
-                    <p className="text-m lg:text-l mt-2">
-                      <strong>Hidden Talent:</strong> balancing pitchers on my
-                      head
-                    </p>
-                    <p className="text-m lg:text-l mt-2">
-                      <strong>First Year Bucket List: </strong> Participating in
-                      scunt season
+                      <strong>Guilty Pleasure: </strong> Disney Movies
                     </p>
                   </div>
                   <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
                     <Img
-                      fluid={data.barre.childImageSharp.fluid}
-                      alt="Florence Barre"
+                      fluid={data.flo.childImageSharp.fluid}
+                      alt="Flo Campbell"
                     />
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Name:</strong> Florence Barre
+                      <strong>Name:</strong> Flo Campbell
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Position:</strong> Co Chair{" "}
+                      Co-Chair from Montreal, QC
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Major:</strong> Marketing and Global Strategies{" "}
+                      <strong>Major:</strong> Accounting
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Fun Fact: </strong> I met my doppelganger during
-                      Frosh!!{" "}
+                      <strong>Hidden Talent: </strong> Loosing my phone
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Go to McGill event:</strong> OAP!
-                    </p>
-                    <p className="text-m lg:text-l mt-2">
-                      <strong>Best Spot in Montreal: </strong> Mac Campus
-                    </p>
-                    <p className="text-m lg:text-l mt-2">
-                      <strong>Guilty pleasure:</strong> cutting bangs on myself
-                      during mid-terms and finals
-                    </p>
-                    <p className="text-m lg:text-l mt-2">
-                      <strong>Hidden talent:</strong> spending way too much time
-                      in Bronfman
-                    </p>
-                    <p className="text-m lg:text-l mt-2">
-                      <strong>First year bucket list:</strong> Cafe Campus
+                      <strong>Go-To McGill Event: </strong> Beach Day Every Day
                     </p>
                   </div>
                   <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
                     <Img
                       fluid={data.guillaume.childImageSharp.fluid}
-                      alt="Florence Barre"
+                      alt="Guillaume Paquette"
                     />
                     <p className="text-m lg:text-l mt-2">
                       <strong>Name:</strong> Guillaume Paquette
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Position:</strong> Co Chair{" "}
+                      Co-Chair from Montreal, QC
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Go to mcgill event: </strong> bronfman ball as a
-                      first year{" "}
+                      <strong>Major:</strong> Finance
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Best Spot in Montreal: </strong> Old Port
+                      <strong>Hidden Talent: </strong> Walking in heels
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>First year bucket list:</strong> try to study on
-                      bronfman 2nd floor{" "}
-                    </p>
-                    <p className="text-m lg:text-l mt-2">
-                      <strong>Guilty pleasure:</strong> dressing as a drag ...
-                      lmao
-                    </p>
-                    <p className="text-m lg:text-l mt-2">
-                      <strong>Hidden Talent:</strong> walking in heels
+                      <strong>Best spot in Montreal: </strong> Bronfman 2nd
+                      floor
                     </p>
                   </div>
                   <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
                     <Img
-                      fluid={data.david.childImageSharp.fluid}
-                      alt="David Fishman"
+                      fluid={data.abbey.childImageSharp.fluid}
+                      alt="Abbey Kaminker"
                     />
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Name:</strong> David Fishman
+                      <strong>Name:</strong> Abbey Kaminker
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Position:</strong> Director of Logistics{" "}
+                      Chief of Staff from Toronto, On
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Hometown:</strong> Vancouver, BC{" "}
+                      <strong>Major:</strong> Finance
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Fun fact about you: </strong> I’ve never had
-                      coffee before
+                      <strong>Hidden Talent: </strong> Getting a seat in the
+                      library during finals
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Go to McGill event:</strong> Carnival or OAP{" "}
-                    </p>
-                    <p className="text-m lg:text-l mt-2">
-                      <strong>Best spot in Montreal:</strong> Molson Hall
-                    </p>
-                    <p className="text-m lg:text-l mt-2">
-                      <strong>Guilty pleasure:</strong> Disney Movies
-                    </p>
-                    <p className="text-m lg:text-l mt-2">
-                      <strong>Hidden talent:</strong> All my talents are public
-                    </p>
-                    <p className="text-m lg:text-l mt-2">
-                      <strong>First year bucket list:</strong> 4á7
+                      <strong>Guilty Pleasure: </strong> TikTok
                     </p>
                   </div>
                   <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
                     <Img
-                      fluid={data.melanie.childImageSharp.fluid}
-                      alt="Melanie Gauthier"
+                      fluid={data.antoine.childImageSharp.fluid}
+                      alt="Antoine Dalarue"
                     />
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Name:</strong> Melanie Gauthier
+                      <strong>Name:</strong> Antoine Dalarue
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Position:</strong> Director of Sponsorship{" "}
+                      Director of Logistics from Geneva, Switzerland
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Hometown:</strong> Montreal, QC{" "}
+                      <strong>Major:</strong> Finance
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Major: </strong> Marketing
+                      <strong>Hidden Talent: </strong> Handstands
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Best spot in Montreal:</strong> The Alpine Roof
-                    </p>
-                    <p className="text-m lg:text-l mt-2">
-                      <strong>Guilty pleasure:</strong> Moshpits
-                    </p>
-                    <p className="text-m lg:text-l mt-2">
-                      <strong>Hidden talent:</strong> Headguns
-                    </p>
-                    <p className="text-m lg:text-l mt-2">
-                      <strong>Go to McGill Event:</strong> Carnival
+                      <strong>Go-To McGill Event: </strong> Bronfman Ball
                     </p>
                   </div>
                   <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
                     <Img
-                      fluid={data.lindsay.childImageSharp.fluid}
-                      alt="Lindsay Dempsey"
+                      fluid={data.ben.childImageSharp.fluid}
+                      alt="Ben Raymond"
                     />
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Name:</strong> Lindsay Dempsey
+                      <strong>Name:</strong> Ben Raymond
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Position:</strong> Inter-faculty Coordinator{" "}
+                      Director of Logistics from Montreal, QC
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Major: </strong> Finance
+                      <strong>Major:</strong> Finance
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Fun fact about you:</strong> I can walk on my
-                      hands
+                      <strong>Hidden Talent: </strong> Convincing people to
+                      spend $500 on ugly shoes
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Go to McGill Event:</strong> Carnival
+                      <strong>Best spot in Montreal: </strong> Ssense
+                    </p>
+                  </div>
+                  <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
+                    <Img
+                      fluid={data.mateo.childImageSharp.fluid}
+                      alt="Mateo Jeanneau"
+                    />
+                    <p className="text-m lg:text-l mt-2">
+                      <strong>Name:</strong> Mateo Jeanneau
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Best spot in Montreal: </strong> Daves Store
+                      SEDI Director from Berkeley, CA
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Guilty Pleasure:</strong> McGill memes
+                      <strong>Major:</strong> Strategy, Reatail &
+                      Entrepeneurship
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Hidden Talent:</strong> Mario kart
+                      <strong>Hidden Talent: </strong> Fixing iPhones
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>First year bucket list:</strong> (virtual??) cafe
-                      campus
+                      <strong>Guilty Pleasure: </strong> Argentinian Trap
+                    </p>
+                  </div>
+                  <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
+                    <Img
+                      fluid={data.nicolas.childImageSharp.fluid}
+                      alt="Nicolas Beaulne"
+                    />
+                    <p className="text-m lg:text-l mt-2">
+                      <strong>Name:</strong> Nicolas Beaulne
+                    </p>
+                    <p className="text-m lg:text-l mt-2">
+                      Director of Sponsorship from Ottawa, ON
+                    </p>
+                    <p className="text-m lg:text-l mt-2">
+                      <strong>Major:</strong> International Management
+                    </p>
+                    <p className="text-m lg:text-l mt-2">
+                      <strong>Hidden Talent: </strong> All-terrain sleeping
+                    </p>
+                    <p className="text-m lg:text-l mt-2">
+                      <strong>Go-To McGill Event: </strong> Not qualified to
+                      answer
                     </p>
                   </div>
                   <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
@@ -309,84 +294,58 @@ export default () => (
                       <strong>Name:</strong> Patrick Koper
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Position:</strong> Director of Logistics{" "}
+                      Director of Sponsorship from Montreal, QC
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Major: </strong> Finance
+                      <strong>Major:</strong> Finance
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Concentration: </strong> Marketing
+                      <strong>Hidden Talent: </strong> Family Guy impression
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Fun fact about you:</strong> I’m a musician, check
-                      out my stuff on Spotify!
-                    </p>
-                    <p className="text-m lg:text-l mt-2">
-                      <strong>Go to McGill Event:</strong> Carnival MCAT
-                    </p>
-                    <p className="text-m lg:text-l mt-2">
-                      <strong>Best spot in Montreal: </strong> Piknik in the
-                      summer
-                    </p>
-                    <p className="text-m lg:text-l mt-2">
-                      <strong>Guilty Pleasure:</strong> pineapple on pizza
-                    </p>
-                    <p className="text-m lg:text-l mt-2">
-                      <strong>Hidden Talent:</strong> sleeping through morning
-                      classes
-                    </p>
-                    <p className="text-m lg:text-l mt-2">
-                      <strong>First year bucket list:</strong> igloofest
+                      <strong>Go-To McGill Event: </strong> Terrasse St-Ambroise
                     </p>
                   </div>
                   <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
                     <Img
-                      fluid={data.elan.childImageSharp.fluid}
-                      alt="Elan Eisner"
+                      fluid={data.taylor.childImageSharp.fluid}
+                      alt="Taylor Williams"
                     />
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Name:</strong> Elan Eisner
+                      <strong>Name:</strong> Taylor Williams
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Position:</strong> Chief of Staff{" "}
+                      SEDI Director from Vancouver, BC
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Major: </strong> Finance
+                      <strong>Major:</strong> Managing for Sustainability
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Hometown: </strong> Denver Co.
+                      <strong>Hidden Talent: </strong> Flower Arranging
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Fun fact about you:</strong> I fell out of a
-                      window when I was 4 and was saved by a tree
-                    </p>
-                    <p className="text-m lg:text-l mt-2">
-                      <strong>Hidden Talent:</strong> making Spotify playlists
+                      <strong>Fun Fact: </strong> I am allergic to flowers
                     </p>
                   </div>
                   <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 my-8 px-4">
                     <Img
-                      fluid={data.campbell.childImageSharp.fluid}
-                      alt="Flo Campbell"
+                      fluid={data.zach.childImageSharp.fluid}
+                      alt="Zach Cicek"
                     />
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Name:</strong> Flo Campbell
+                      <strong>Name:</strong> Zach Cicek
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Position:</strong> Sponsorship & Inclusivity{" "}
+                      Inter-Faculty Coordinator from Vancouver, BC
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Major: </strong> Accounting
+                      <strong>Major:</strong> Marketing
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Hometown: </strong> Montreal QC.
+                      <strong>Hidden Talent: </strong> Belly Moving
                     </p>
                     <p className="text-m lg:text-l mt-2">
-                      <strong>Best spot in MTL:</strong> Bronfman basement
-                    </p>
-                    <p className="text-m lg:text-l mt-2">
-                      <strong>Hidden Talent:</strong> Searching Spotify for
-                      hours and finding fire songs
+                      <strong>Guilty Pleasure: </strong> Ecole Privée
                     </p>
                   </div>
                 </div>
