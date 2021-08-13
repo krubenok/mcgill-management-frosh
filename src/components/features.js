@@ -39,11 +39,11 @@ export default () => (
                 bonding activities, online and in-person.
               </p>
               <div className="flex justify-center md:justify-start">
-                {/* <a href="https://mcgill-orientation-week.eventus.io/login"> */}
-                <button className="hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">
-                  Registration Opening Soon
-                </button>
-                {/* </a> */}
+                <a href="https://mcgill-orientation-week-2021.eventus.io">
+                  <button className="hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">
+                    Register Now
+                  </button>
+                </a>
               </div>
             </div>
             <div className="w-full sm:w-1/2 p-6">
