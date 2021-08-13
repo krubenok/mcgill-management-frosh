@@ -25,7 +25,9 @@ function BuyPage() {
           <br />
           <div className="p-6">
             <p className="text-gray-600 mb-8">
-              Some words about the differences between the two payment options.
+              Online tickets will consist one big online event for each day, and
+              Hybrid will consist of a few in person and one online event per
+              day.
             </p>
           </div>
           <div className="flex justify-center space-x-8 w-full mb-4">

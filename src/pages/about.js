@@ -140,7 +140,13 @@ export default () => (
                   </AccordionItemHeading>
                   <AccordionItemPanel>
                     <p className="text-m lg:text-l mt-2 font-light text-black">
-                      Register through the registration button on our homepage!
+                      <a
+                        href="https://mcgill-orientation-week-2021.eventus.io"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Register here
+                      </a>
                     </p>
                   </AccordionItemPanel>
                 </AccordionItem>
