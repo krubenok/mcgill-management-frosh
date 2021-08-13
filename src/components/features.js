@@ -39,7 +39,11 @@ export default () => (
                 bonding activities, online and in-person.
               </p>
               <div className="flex justify-center md:justify-start">
-                <a href="https://mcgill-orientation-week-2021.eventus.io">
+                <a
+                  href="https://mcgill-orientation-week-2021.eventus.io"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">
                     Register Now
                   </button>
