@@ -24,11 +24,12 @@ function BuyPage() {
           </div>
           <br />
           <div className="p-6">
-            <p className="text-gray-600 mb-8">
+            {/* <p className="text-gray-600 mb-8">
               Online tickets will consist one big online event for each day, and
               Hybrid will consist of a few in person and one online event per
               day.
-            </p>
+            </p> */}
+            <p className="text-gray-600 mb-8">Registration is now closed.</p>
           </div>
           <div className="flex justify-center space-x-8 w-full mb-4">
             <div>
